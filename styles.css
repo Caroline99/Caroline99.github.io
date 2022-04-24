@@ -90,7 +90,7 @@ h1, h2, h5 {
 } */
 
 .project {
-    background-color: #adbbd8;
+    background-color: #a8cdf4;
     height: 70px;
     border-radius: 5px;
 }
@@ -100,6 +100,16 @@ h4 {
 
 div {
     padding: 8px;
+}
+
+#dance-quote {
+    font-style: italic;
+}
+
+.html-css {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 footer {
@@ -125,13 +135,13 @@ form {
 }
 
 .form-item label {
-    flex-basis: 150px;
+    /* flex-basis: 150px; */
     font-size: 22px;
 }
 
 .form-item input,
 .form-item textarea {
-    flex-basis: 50%;
+    flex-basis: 75%;
     border: 2px solid #FDDC5C;
 }
 
@@ -140,13 +150,18 @@ form {
     border: 2px solid #FA4224;
 }
 
+.form-item label {
+    padding: 0 5px;
+}
+
 .form-item input,
 .form-item textarea,
 .form-item button {
-    border: 2px solid #FDDC5C;
+    border: 2px solid #a8cdf4;
     background-color: #FFF;
     padding: 5px;
     font-size: 18px;
+    border-radius: 5px;
 }
 
 .form-item button:hover {
@@ -157,8 +172,15 @@ form {
 
 .form-item button {
     width: 100px;
+    border-radius: 5px;
+    background-color: #a8cdf4;
+    border: 2px solid #3692f4;
 }
 
+.under-construction {
+    padding: 50px;
+    text-align: center;
+}
 
 
 /* Small devices (landscape phones, 481px and up) */
