@@ -16,7 +16,12 @@ body {
 }
 
 #profile {
-    width: 30%;
+    /* width: 30%; */
+    position: relative;
+    width: 200px;
+    /* height: 200px; */
+    overflow: hidden;
+    border-radius: 50%;
 }
 
 header {
@@ -84,6 +89,16 @@ h1, h2, h5 {
 
 }
 
+.background-image {
+    background-image: url("Images/network.jpg");
+    width: 100%;
+}
+
+#text-on-image h1, #text-on-image h2 {
+    color: #FFF;
+    text-shadow: 1px 1px 3px red;
+}
+
 /* p {
     max-width: 900px;
     margin: 0 auto;
@@ -114,11 +129,11 @@ div {
 
 footer {
     text-align: center;
-    background-color: #F5F5F5;
-    border-top: 2px solid #F5F5F5;
+    background-color: #faefda;
+    border-top: 2px solid #fcebcb;
     padding-top: 3px;
     position: sticky;
-    top: 100vh;
+    top: 20vh;
     padding: .2em 0;
 }
 
