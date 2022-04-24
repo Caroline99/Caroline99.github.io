@@ -76,17 +76,8 @@ h1, h2, h5 {
     justify-content: space-around;
 }
 
-
-
 .main-content {
     padding: 1em;
-}
-
-.main-header {
-    /* Add a background image to the main header */
-    /* background-image: url("Images/");
-    background-size: cover; */
-
 }
 
 .background-image {
@@ -99,16 +90,12 @@ h1, h2, h5 {
     text-shadow: 1px 1px 3px red;
 }
 
-/* p {
-    max-width: 900px;
-    margin: 0 auto;
-} */
-
 .project {
     background-color: #a8cdf4;
     height: 70px;
     border-radius: 5px;
 }
+
 h4 {
     margin: 10px 0px;
 }
@@ -203,6 +190,10 @@ form {
     body {
         background-color: orange;
     }
+
+    /* .all-projects {
+        display: flex;
+    } */
 }
 
 /* Medium devices (tablets, 641px and up)*/
