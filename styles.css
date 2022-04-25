@@ -5,7 +5,6 @@
     /* font-family: 'Raleway', sans-serif; */
     font-family: 'Ubuntu', sans-serif;
     color:  #777;
-
 }
 
 body {
@@ -16,10 +15,8 @@ body {
 }
 
 #profile {
-    /* width: 30%; */
     position: relative;
     width: 200px;
-    /* height: 200px; */
     overflow: hidden;
     border-radius: 50%;
 }
@@ -27,7 +24,10 @@ body {
 header {
     border-bottom: 2px solid #FDDC5C;
     text-align: center;
-    
+}
+
+.main-headings {
+    padding: 0;
 }
 
 h1, h2, h5 {
@@ -66,7 +66,7 @@ h1, h2, h5 {
     display: inline-block;
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     padding: 0;
     
 }
@@ -74,6 +74,10 @@ h1, h2, h5 {
 #social li {
     display: inline;
     justify-content: space-around;
+}
+
+.social-icons {
+    padding: 20px;
 }
 
 .main-content {
@@ -108,7 +112,7 @@ div {
     font-style: italic;
 }
 
-.html-css {
+#html-css {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -186,40 +190,39 @@ form {
 
 
 /* Small devices (landscape phones, 481px and up) */
-@media (min-width: 481px) { 
-    body {
-        background-color: orange;
-    }
-
-    /* .all-projects {
+@media (min-width: 501px) { 
+    .all-projects {
         display: flex;
-    } */
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+
+    .projects {
+        flex-basis: 50%;
+    }
+
 }
 
-/* Medium devices (tablets, 641px and up)*/
-@media (min-width: 641px) {
-    body {
-        background-color: yellow;
-    }
-}
-
-/* Large devices (desktops, 961px and up) */
-@media (min-width: 961px) {
-    body {
-        background-color: green;
-    }
-}
 
 /* Extra large devices (large desktops, 1025px and up) */
 @media (min-width: 1025px) {
-    body {
-        background-color: blue;
+    .projects {
+        flex-basis: 33%;
     }
+
+    /* .header-under-nav {
+        display: inline-block;
+        /* flex-wrap: wrap; */
+    }
+
+    .profile-container {
+        /* display: inline; */
+        width: 40%;
+    }
+
+    #main-headings {
+        width: 50% ;
+    } */
 }
 
- /* MASSIVE devices (large desktops, 1281px and up) */
-@media (min-width: 1281px) {
-    body {
-        background-color: purple;
-    }
-}
