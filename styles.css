@@ -10,7 +10,7 @@ body {
     background-color: #FDF5E6;
     color: #000000;
     font-family: Arial, Helvetica, sans-serif, sans-serif;
-    margin: 0px;
+    margin: 0px;   
 }
 
 #profile {
@@ -33,7 +33,6 @@ header {
 
 .nav li {
     display: inline;
-    
 }
 
 .nav a {
@@ -101,6 +100,11 @@ span.behind-text {
     border-radius: 5px;
 }
 
+h3 {
+    text-align: center;
+    margin-bottom: 0;
+}
+
 h4 {
     margin: 10px 0px;
 }
@@ -124,8 +128,6 @@ footer {
     background-color: #faefda;
     border-top: 2px solid #fcebcb;
     padding-top: 3px;
-    position: sticky;
-    top: 20vh;
     padding: .2em 0;
 }
 
