@@ -147,7 +147,7 @@ div {
     justify-content: center;
 }
 
-#django {
+#djangoNews {
     display: flex;
     flex-direction: column;
     justify-content: center;
