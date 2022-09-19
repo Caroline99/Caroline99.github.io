@@ -123,6 +123,12 @@ div {
     justify-content: center;
 }
 
+#js-react {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 footer {
     text-align: center;
     background-color: #faefda;
