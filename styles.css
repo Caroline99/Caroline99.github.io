@@ -123,6 +123,12 @@ div {
     justify-content: center;
 }
 
+#python {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 #group {
     display: flex;
     flex-direction: column;
