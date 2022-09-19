@@ -147,6 +147,12 @@ div {
     justify-content: center;
 }
 
+#django {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 footer {
     text-align: center;
     background-color: #faefda;
