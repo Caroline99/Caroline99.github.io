@@ -147,11 +147,11 @@ div {
     justify-content: center;
 }
 
-/* #django {
+#django {
     display: flex;
     flex-direction: column;
     justify-content: center;
-} */
+}
 
 footer {
     text-align: center;
