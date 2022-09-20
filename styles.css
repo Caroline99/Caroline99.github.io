@@ -68,6 +68,10 @@ header {
 }
 
 #spacer {
+    height: 110px;
+}
+
+#spacer2 {
     height: 100px;
 }
 
