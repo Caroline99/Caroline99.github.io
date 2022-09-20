@@ -67,6 +67,10 @@ header {
     justify-content: space-around;
 }
 
+#spacer {
+    height: 100px;
+}
+
 .social-icons {
     padding: 20px;
 }
